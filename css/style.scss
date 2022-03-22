@@ -16,7 +16,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: #f6f5ae;
+  background-color: #f5f4d4;
 }
 
 .btn {
@@ -30,7 +30,18 @@ body {
     width: 15rem;
     height: 5rem;
     background-color: #fff;
+    border: 0.1rem solid #000;
+    // border-bottom-width: thick;
     border-radius: 3rem;
+    transition: all 0.5s;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    &:hover {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+      transform: scale(99%);
+    }
+    &:active {
+      transform: scale(90%);
+    }
   }
 }
 

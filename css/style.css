@@ -22,7 +22,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #f6f5ae;
+  background-color: #f5f4d4;
 }
 
 .btn {
@@ -44,7 +44,24 @@ body {
   width: 15rem;
   height: 5rem;
   background-color: #fff;
+  border: 0.1rem solid #000;
   border-radius: 3rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn__bg:hover {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(99%);
+          transform: scale(99%);
+}
+
+.btn__bg:active {
+  -webkit-transform: scale(90%);
+          transform: scale(90%);
 }
 
 .bgcolor--orange {
