@@ -44,24 +44,23 @@ body {
   &orange {
     background: linear-gradient(30deg, #ff9c5b, #ffc260, #fcff55);
     @include zIndex;
-    animation: trans 1s ease;
+    animation: trans 1.5s ease;
   }
   &green {
     background: linear-gradient(30deg, #7cf57c, #f6f5ae, #fac0ce);
     @include zIndex;
-    animation: trans 1s ease;
+    animation: trans 1.5s ease;
   }
   &purple {
     background: linear-gradient(30deg, #49eaff, #c4a0ff, #e658ff);
     @include zIndex;
-    animation: trans 1s ease;
+    animation: trans 1.5s ease;
   }
   &plant {
     background-image: url(../img/1.jpg);
-    width: 100vw;
-    height: 100vh;
+    background-size: cover;
     @include zIndex;
-    animation: trans 1s ease;
+    animation: trans 1.5s ease;
   }
 }
 @keyframes trans {

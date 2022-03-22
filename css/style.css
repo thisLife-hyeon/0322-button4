@@ -52,8 +52,8 @@ body {
   position: relative;
   z-index: -1;
   opacity: 1;
-  -webkit-animation: trans 1s ease;
-          animation: trans 1s ease;
+  -webkit-animation: trans 1.5s ease;
+          animation: trans 1.5s ease;
 }
 
 .bgcolor--green {
@@ -61,8 +61,8 @@ body {
   position: relative;
   z-index: -1;
   opacity: 1;
-  -webkit-animation: trans 1s ease;
-          animation: trans 1s ease;
+  -webkit-animation: trans 1.5s ease;
+          animation: trans 1.5s ease;
 }
 
 .bgcolor--purple {
@@ -70,19 +70,18 @@ body {
   position: relative;
   z-index: -1;
   opacity: 1;
-  -webkit-animation: trans 1s ease;
-          animation: trans 1s ease;
+  -webkit-animation: trans 1.5s ease;
+          animation: trans 1.5s ease;
 }
 
 .bgcolor--plant {
   background-image: url(../img/1.jpg);
-  width: 100vw;
-  height: 100vh;
+  background-size: cover;
   position: relative;
   z-index: -1;
   opacity: 1;
-  -webkit-animation: trans 1s ease;
-          animation: trans 1s ease;
+  -webkit-animation: trans 1.5s ease;
+          animation: trans 1.5s ease;
 }
 
 @-webkit-keyframes trans {
