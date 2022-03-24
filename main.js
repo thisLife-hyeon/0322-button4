@@ -4,12 +4,10 @@ const btn2 = document.querySelector(".btn__bg--con2");
 const btn3 = document.querySelector(".btn__bg--con3");
 const btn4 = document.querySelector(".btn__bg--con4");
 const colors = ["bgcolor--orange", "bgcolor--green", "bgcolor--purple", "bgcolor--plant", "box"];
-// const style = document.styleSheets;
 
 function resetColor() {
   box.classList.remove(colors[0], colors[1], colors[2], colors[3]);
   void box.offsetWidth;
-  // style.removeProperty(animation);
 }
 function onBtn1() {
   resetColor();
